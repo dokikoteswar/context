@@ -2,7 +2,7 @@ import React,{useState} from "react";
 
 // here import cricket counter import
 import cricketCounter from "./cricketCounter";
-                        // porps
+                        // props
 const  CricketProvider =(props)=>{
     //  below the cricker and setCricketer is now local variable 
     const [cricketer, setCricketer] = useState({
